@@ -39,13 +39,29 @@
                     <img src="assets/media/logo/logo.png" alt="logo">
                 </div>
                 <nav>
-                    <a href="#">HOME</a>
-                    <a href="#">ABOUT</a>
-                    <a href="#">SERVICES</a>
-                    <a href="#">CASES</a>
-                    <a href="#">BLOG</a>
-                    <a href="#">CONTACT</a>
-                    <a class="btn" href="#">CONTACT NOW</a>
+                    <ul class="flex hero-nav">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="services.html">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="cases.html">CASES</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="#">CONTACT NOW</a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
             <div class="flex justify-start">
@@ -78,7 +94,7 @@
                 </div>
                 <div class="box">
                     <h2 class="team-head-1">What we do for you</h2>
-                    <hr>
+                    <hr class="team-hr">
                     <p> consectetur adipisicing elit,
                         sed do eiusmod tempor incididunt ut labore et
                         doiore smod tem magna aliqua. ut enim.</p>
@@ -100,30 +116,34 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <div>
-                <h2 class="service-header">Our Services</h2>
+        <section>
+            <div class="container">
+                <div>
+                    <h2 class="service-header">Our Services</h2>
+                </div>
+                <div class="flex">
+                    <div class="service-content">
+                        <h3>Strategic Planning</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Magni commodi exercitationem error incidunt labore.</p>
+                    </div>
+                    <div class="service-content">
+                        <h3>Trades & Stocks</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                           Ut eveniet accusantium dolor
+                           quam laboriosam .</p>
+                           <div class="service-btn">
+                            <a class="btn btn-secondry" href="#">More Services</a>
+                           </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Audit & Assurance</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Tempore minus tenetur facilis laborum unde consectetur.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="flex">
-                <div class="service-content">
-                    <h3>Strategic Planning</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                       Magni commodi exercitationem error incidunt labore.</p>
-                </div>
-                <div class="service-content">
-                    <h3>Trades & Stocks</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                       Ut eveniet accusantium dolor
-                       quam laboriosam .</p>
-                </div>
-                <div class="service-content">
-                    <h3>Audit & Assurance</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Tempore minus tenetur facilis laborum unde consectetur.
-                    </p>
-                </div>
-            </div>
-                <a class="btn service-btn" href="#">More Services</a>
         </section>
         <section>
             <div class="container flex">
@@ -133,7 +153,9 @@
                          Molestias fuga laborum explicabo aut autem sapiente, 
                          asperiores minus alias, magni aperiam quam distinctio.
                     </p>
-                    <a class="btn case-btn" href="#">More Services</a>
+                    <div class="case-btn">
+                        <a class="btn btn-secondry" href="#">More Services</a>
+                    </div>
                 </div>
                 <div class="flex justify-start">
                     <img class="case-img" src="assets/media/cases/completed_case_2.png" alt="">
@@ -143,44 +165,45 @@
             </div>
         </section>
         <section>
-            <div class=" themes container">
+            <div class="theme-container container">
                 <div>
-                    <img class="themes-img" src="assets/media/testimonial/Homepage_testi.png" alt="image">
+                    <img src="assets/media/testimonial/Homepage_testi.png" alt="image">
                 </div>
                 <div>
-                    <p> you can't succeed if you just do what others do and <br> 
-                        follow the well-worn path.you need to create a new and <br> 
-                        original path for yourself.
-                    </p>
-                    <div class="star-container">
+                    <p> you can't succeed if you just do what others do and</p>
+                    <p>follow the well-worn path.you need to create a new and</p> 
+                    <p>original path for yourself.</p>
+                    <div>
                         <i class="far fa-star star"></i>
                         <i class="far fa-star star"></i>
                         <i class="far fa-star star"></i>
                         <i class="far fa-star star"></i>
                         <i class="far fa-star star"></i>
                     </div>
-                    <p>CLIFFORD FRAZIER-colorlib themes</p>
+                    <div>
+                        <p>CLIFFORD FRAZIER-colorlib themes</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
                 <div class="news-head">
-                    <h2>Our Recent News</h2>
+                    <h2 class="service-header">Our Recent News</h2>
                 </div>
             <div class="container flex">
-                <div>
+                <div class="news-img">
                     <img src="assets/media/recent/rcent_1.png" alt="image">
                     <h6>Business Planning</h6>
                     <h4>Amazing places To Visit In Summer</h4>
                     <p>NOV 30,2020</p>
                 </div>
-                <div>
+                <div class="news-img">
                     <img src="assets/media/recent/rcent_2.png" alt="image">
                     <h6>Audit</h6>
                     <h4>Amazing Places To Visit In Summer</h4>
                     <p>NOV 30,2020</p>
                 </div>
-                <div>
+                <div class="news-img">
                     <img src="assets/media/recent/rcent_3.png" alt="image">
                     <h6>Business Planning</h6>
                     <h4>Amazing places To Visit In Summer</h4>
@@ -189,41 +212,41 @@
             </div>
         </section>
         <section>
-            <div class=" call-back container flex justify-start">
+            <div class=" call-back container flex">
                 <div>
                     <h2 class="call-back-head">Request for Call Back</h2>
                     <p class="call-back-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                        Placeat quis.
                     </p>
-                </div>
-        
-                    <div>
-                        <div>
-                            <a class="box-one" href="#">Name</a>
-                        </div>
-                        <div>
-                            <a class="box-two" href="#">Phone</a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a class="box-three" href="#">Services</a>
-                        </div>
-                        <div>
-                            <a class="btn" href="#">Send</a>
-                        </div>
-                </div>    
             </div>
+        <div class="flex box-style">
+            <div class="flex justify-start">
+                <div class="box-one">
+                    <a href="#">Name</a>
+                </div>
+                <div class="box-two">
+                    <a href="#">Phone</a>
+                </div>
+            </div>
+                <div class="flex">
+                <div class="box-three">
+                    <a href="#">Services</a>
+                </div>
+                <div>
+                    <a class="btn" href="#">Send</a>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
             <div class="container flex">
                 <div class="logo-container">
                     <img src="assets/media/logo/logo2_footer.png" alt="image">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                        Dolore, porro earum doloremque aspernatur.
                     </p>
-                    <nav>
+                    <nav class="footer-nav">
                         <a href="#"><i class="fab fa-facebook-square"></i></a>
                         <a href="#"><i class="fab fa-twitter-square"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -231,7 +254,7 @@
                     </nav>
                 </div>
                 <nav>
-                    <h3>Company</h3>
+                    <h3 class="footer-nav">Company</h3>
                     <ul>
                         <li>Home</li>
                         <li>About Us</li>
@@ -241,7 +264,7 @@
                     </ul>
                 </nav>
                 <nav>
-                    <h3>Services</h3>
+                    <h3 class="footer-nav">Services</h3>
                     <ul>
                         <li>Commercial clearing</li>
                         <li>Office Cleaning</li>
@@ -251,13 +274,19 @@
                     </ul>
                 </nav>
                 <nav>
-                    <h3>Get In Touch</h3>
+                    <h3 class="footer-nav">Get In Touch</h3>
                     <ul>
                         <li>152-515-6565</li>
                         <li>Demomail@gmail.com</li>
                         <li>New Orieans,USA</li>
                     </ul>
                 </nav>
+            </div>
+            <hr>
+            <div class="small">
+                <small>
+                    copyright &c 2020 All rights Reserved|This templete is made with by colorlib
+                </small>
             </div>
     </footer>
 </body>
